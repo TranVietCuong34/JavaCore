@@ -1,0 +1,20 @@
+package File;
+
+import java.io.File;
+
+public class TaoTaoTapTinVaThuMuc {
+	public static void main(String[] args) {
+		// kiểm tra thư mục đã tồn tại hay chưa ?
+		File folder1 = new File("F:\\DevPro\\JavaWeb\\JavaCore\\CacBaiToanCoBan");
+		System.out.println(folder1.exists());
+
+		// tạo thư mục
+
+		// phương thức mkdir() => tạo 1 thư mục
+		File d1 = new File("F:\\HT");
+		d1.mkdir();
+		// phương thức mkdirs() => tạo nhieu thư mục
+		File d2 = new File("F:\\HT\\HT1\\HT2");
+		d1.mkdir();
+	}
+}

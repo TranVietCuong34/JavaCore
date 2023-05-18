@@ -1,0 +1,13 @@
+package DeQue_LinkedList;
+
+import java.util.LinkedList;
+
+import javax.management.Query;
+
+public class Queue {
+	public static void main(String[] args) {
+		java.util.Queue<String> danhSachSvQueue = new LinkedList<>();
+		
+		
+	}
+}

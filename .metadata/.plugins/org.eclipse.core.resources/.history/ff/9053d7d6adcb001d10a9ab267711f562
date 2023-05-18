@@ -1,0 +1,21 @@
+package File;
+
+import java.util.Scanner;
+
+public class file {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int luaChon = 0;
+		do {
+			System.out.println("============MENU============");
+			System.out.println("1.Kiem tra file co the thuc thi");
+			System.out.println("2.Kiem tra file co the thuc ghi");
+			System.out.println("3.Kiem tra file co the thuc doc");
+			System.out.println("1.In duong dan");
+			System.out.println("1.In ten file");
+			System.out.println("1.Kiem tra file la thu muc");
+			System.out.println("1.Kiem tra file la tap tin");
+
+		} while (luaChon != 0);
+	}
+}

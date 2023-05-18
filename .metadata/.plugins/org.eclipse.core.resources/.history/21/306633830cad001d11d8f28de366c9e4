@@ -1,0 +1,36 @@
+package QuanLyHienThi;
+
+import java.util.ArrayList;
+
+import Info.MonHoc;
+import Info.SinhVien;
+
+
+
+public class DanhSachMonHoc {
+	private MonHoc mh;
+	private ArrayList<SinhVien> list_sv;
+
+	public DanhSachMonHoc() {
+		super();
+	}
+
+	public DanhSachMonHoc(MonHoc mh, ArrayList<SinhVien> list_sv) {
+		super();
+		this.mh = mh;
+		this.list_sv = list_sv;
+	}
+
+	public void display() {
+		System.out.println("---------THONG TIN MON HOC---------");
+		System.out.println("Ma mon hoc: " + mh.getMaMH() );
+		System.out.println("Ten Mon Hoc: "+ mh.getMaMH());
+		System.out.printf("%-3s %10s %15s %10s%n", "STT", "Ma sv", "Ho va ten", "Diem");
+		int stt = 1;
+		for (SinhVien x : list_sv) {
+			System.out.printf("%-3d ", stt++);
+			System.out.printf("%9d %20s %6.2f%n", x.getMaSV(), x.getHoDem()+" " + x.getTen(), manage.QuanLyDiem.getList().get(manage.QuanLyDiem.indexOf(mh.getMaMH(), x.getMaSV())).getDiem());
+		}
+		System.out.printf("Diem trung binh mon: %3.2f", manage.QuanLyDiem.diemTB(mh.getMaMH()));
+	}
+}

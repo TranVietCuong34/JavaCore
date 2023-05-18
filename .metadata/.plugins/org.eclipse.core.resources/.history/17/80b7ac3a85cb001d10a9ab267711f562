@@ -1,0 +1,11 @@
+package DeQue_LinkedList;
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+public class Deque {
+	public static void main(String[] args) {
+		
+		java.util.Deque<String> danhSachSv = new ArrayDeque<String>(); 
+	}
+}

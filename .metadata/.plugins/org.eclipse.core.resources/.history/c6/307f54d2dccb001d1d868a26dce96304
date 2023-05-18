@@ -1,0 +1,23 @@
+package File;
+
+import java.io.File;
+import java.io.IOException;
+
+public class XoaFile {
+	public static void main(String[] args) {
+		File f = new File("F:\\HT2001");
+		File f2 = new File("F:\\HT");
+		File f3 = new File("F:\\HT2001\\vidu.txt");
+		f.mkdir();
+		f2.mkdir();
+		try {
+			f3.createNewFile();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		f2.deleteOnExit(); // chỉ xóa được thư mục rỗng và 1 tập tin
+		
+		
+	}
+}

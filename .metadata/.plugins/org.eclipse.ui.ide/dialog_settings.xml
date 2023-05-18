@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="F:\DevPro\JavaWeb\Javawebdevpro24"/>
+			<item value="F:\DevPro\JavaWeb\Spring Boot"/>
+			<item value="F:\DevPro\JavaWeb\JavaCore\CacBaiToanCoBan"/>
+			<item value="F:\DevPro\JavaWeb\J68_PhamVanDuc_BTCK"/>
+			<item value="F:\DevPro\JavaWeb\JavaCore\BaiTapCuoiKhoa"/>
+			<item value="F:\DevPro\JavaWeb\JavaCore\J68_DoKhanhVinh_BCK"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

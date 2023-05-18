@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="BaiTapCuoiKhoa/src"/>
+	<classpathentry kind="src" path="J68_DoKhanhVinh_BCK/src"/>
+	<classpathentry kind="output" path="BaiTapCuoiKhoa/bin"/>
+</classpath>

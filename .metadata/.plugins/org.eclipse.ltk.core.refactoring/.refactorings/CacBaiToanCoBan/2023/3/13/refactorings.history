@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Set.test&apos; to &apos;RutTham&apos;&#x0D;&#x0A;- Original project: &apos;CacBaiToanCoBan&apos;&#x0D;&#x0A;- Original element: &apos;Set.test&apos;&#x0D;&#x0A;- Renamed element: &apos;Set.RutTham&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;test&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Set{test.java[test" matchStrategy="1" name="RutTham" qualified="false" references="true" similarDeclarations="false" stamp="1679801818061" textual="false" version="1.0"/>
+</session>

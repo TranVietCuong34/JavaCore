@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DanhSachSinhVien.java&apos; to &apos;BaiTapCuoiKhoa/src/QuanLyHienThi&apos;&#x0D;&#x0A;- Original project: &apos;J68_DoKhanhVinh_BCK&apos;&#x0D;&#x0A;- Destination element: &apos;BaiTapCuoiKhoa/src/QuanLyHienThi&apos;&#x0D;&#x0A;- Original element: &apos;vn.devpro.qlsv.hienthi.DanhSachSinhVien.java&apos;" description="Copy compilation unit" destination="=BaiTapCuoiKhoa/src&lt;QuanLyHienThi" element1="/src&lt;vn.devpro.qlsv.hienthi{DanhSachSinhVien.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1676447450630" units="1" version="1.0"/>
+</session>

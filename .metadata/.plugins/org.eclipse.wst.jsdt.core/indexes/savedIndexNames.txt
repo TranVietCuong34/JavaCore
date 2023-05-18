@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+F:\DevPro\JavaWeb\JavaCore\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3820821835.index

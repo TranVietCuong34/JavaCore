@@ -1,0 +1,50 @@
+package Set;
+
+import java.util.HashSet;
+import java.util.Scanner;
+import java.util.Set;
+
+public class RutTham {
+	Set<String> thungPhieu = new HashSet<String>();
+	
+	public RutTham() {
+	
+	}
+	public boolean themPhieu(String giaTri) {
+		return this.thungPhieu.add(giaTri);
+	}
+	public boolean xoaPhieu(String giaTri) {
+		return this.thungPhieu.remove(giaTri);
+	}
+	public boolean ktraPHieuTonTai(String giaTri) {
+		return this.thungPhieu.contains(giaTri);
+	}
+	public void xoaTatCa() {
+		 this.thungPhieu.clear();;
+	}
+	public int laySoLuong() {
+		return this.thungPhieu.size();
+	}
+	public String rutMotPhieu() {
+		String ketQua = " ";
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner sc =  new Scanner(System.in);
+		do {
+			System.out.println("--------------------------------------");
+			System.out.println("MENU: ");
+			System.out.println("1. Thêm mã số dự thưởng.");
+			System.out.println("2. Xóa mã số dự thưởng.");
+			System.out.println("3. Kiểm tra mã số dự thưởng có tồn tại hay không?");
+			System.out.println("4. Xóa tất cả các phiếu dự thưởng.");
+			System.out.println("5. Số lượng phiếu dự thưởng.");
+			System.out.println("6. Rút thăm trúng thưởng.");
+			System.out.println("7. In ra tất cả các phiếu.");
+			System.out.println("0. Thoát khỏi chương trình");
+			
+		}while();
+	}
+}
